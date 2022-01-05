@@ -1,0 +1,486 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 05 16:28:40 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>67 seconds (67792 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.selectLanguage()'><b>selectLanguage</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-1036606347" onClick='toggleBox("Output-1036606347", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1036606347" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1036606347">
+English selected successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.selectLevel()'><b>selectLevel</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-195132390" onClick='toggleBox("Output-195132390", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-195132390" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-195132390">
+Beginner selected successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.getCourse1Duration()'><b>getCourse1Duration</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-906927110" onClick='toggleBox("Output-906927110", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-906927110" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-906927110">
+First course rating is - Approx. 22 hours to complete<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.ReadyToTransformTests.return2HomePage()'><b>return2HomePage</b><br>Test class: org.coursera.ReadyToTransformTests<br/>
+<a href="#Output-744715819" onClick='toggleBox("Output-744715819", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-744715819" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-744715819">
+Page Loaded Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>org.coursera.ReadyToTransformTests@53b7f657</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.backToResultPage()'><b>backToResultPage</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-1917513667" onClick='toggleBox("Output-1917513667", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1917513667" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1917513667">
+Reached Result Page Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.backToResultPage2()'><b>backToResultPage2</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-1567857145" onClick='toggleBox("Output-1567857145", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1567857145" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1567857145">
+Reached Result Page Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.searchWebDevelopment()'><b>searchWebDevelopment</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-936546050" onClick='toggleBox("Output-936546050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-936546050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-936546050">
+Result page loaded correctly<br/>
+Screenshot captured successfully<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.LanguageLearningSearchTests.langFilter()'><b>langFilter</b><br>Test class: org.coursera.LanguageLearningSearchTests<br/>
+<a href="#Output-1745331030" onClick='toggleBox("Output-1745331030", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1745331030" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1745331030">
+English
+(1182)
+Russian
+(624)
+Spanish
+(614)
+French
+(570)
+Portuguese (Portugal)
+(547)
+German
+(481)
+Arabic
+(479)
+Vietnamese
+(472)
+Italian
+(460)
+Korean
+(137)
+Chinese (China)
+(118)
+Portuguese (Brazil)
+(66)
+Turkish
+(55)
+Japanese
+(53)
+Persian
+(42)
+Chinese (Traditional)
+(23)
+Greek
+(21)
+Ukrainian
+(18)
+Thai
+(17)
+Hindi
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Polish
+(8)
+Dutch
+(7)
+Hebrew
+(7)
+Hungarian
+(7)
+Catalan
+(6)
+Indonesian
+(6)
+Mongolian
+(6)
+Romanian
+(6)
+Javanese
+(5)
+Portuguese
+(5)
+Serbian
+(5)
+Slovak
+(5)
+Tamil
+(5)
+Albanian
+(4)
+Bengali
+(4)
+Czech
+(3)
+Estonian
+(3)
+Swedish
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Georgian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)<br/>
+Screenshot captured successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>org.coursera.LanguageLearningSearchTests@6b6776cb</td></tr>
+<tr>
+<td title='org.coursera.ReadyToTransformTests.fillR2TForm()'><b>fillR2TForm</b><br>Test class: org.coursera.ReadyToTransformTests<br/>
+<a href="#Output-131343682" onClick='toggleBox("Output-131343682", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131343682" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131343682">
+Ready To Transform form filled successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>org.coursera.ReadyToTransformTests@53b7f657</td></tr>
+<tr>
+<td title='org.coursera.LanguageLearningSearchTests.levelFilter()'><b>levelFilter</b><br>Test class: org.coursera.LanguageLearningSearchTests<br/>
+<a href="#Output-1619543326" onClick='toggleBox("Output-1619543326", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1619543326" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1619543326">
+Intermediate
+(563)
+Beginner
+(522)
+Mixed
+(161)
+Advanced
+(70)
+Clear<br/>
+Screenshot captured successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.LanguageLearningSearchTests@6b6776cb</td></tr>
+<tr>
+<td title='org.coursera.LanguageLearningSearchTests.returnHomePage()'><b>returnHomePage</b><br>Test class: org.coursera.LanguageLearningSearchTests<br/>
+<a href="#Output-1969925628" onClick='toggleBox("Output-1969925628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1969925628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1969925628">
+Page Loaded Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>org.coursera.LanguageLearningSearchTests@6b6776cb</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.getCourse1Page()'><b>getCourse1Page</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-2033254313" onClick='toggleBox("Output-2033254313", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2033254313" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2033254313">
+Reached Course 1 Page<br/>
+Screenshot captured successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.getFirstCourseRating()'><b>getFirstCourseRating</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-2012808675" onClick='toggleBox("Output-2012808675", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2012808675" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2012808675">
+First course rating is - 4.7
+stars<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.getCourse2Duration()'><b>getCourse2Duration</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-786970485" onClick='toggleBox("Output-786970485", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-786970485" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-786970485">
+Second course rating is - Approx. 33 hours to complete<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.getCourse2Page()'><b>getCourse2Page</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-623224248" onClick='toggleBox("Output-623224248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-623224248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-623224248">
+Reached Course 2 Page<br/>
+Screenshot captured successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.getFirstCourseName()'><b>getFirstCourseName</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-639482242" onClick='toggleBox("Output-639482242", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-639482242" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-639482242">
+First course name is - Introduction to Web Development<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.getSecondCourseName()'><b>getSecondCourseName</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-2034460325" onClick='toggleBox("Output-2034460325", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2034460325" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2034460325">
+Second course name is - Programming Foundations with JavaScript, HTML and CSS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.ReadyToTransformTests.getR2TForm()'><b>getR2TForm</b><br>Test class: org.coursera.ReadyToTransformTests<br/>
+<a href="#Output-1505774574" onClick='toggleBox("Output-1505774574", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1505774574" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1505774574">
+Ready To Transform form is available<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>org.coursera.ReadyToTransformTests@53b7f657</td></tr>
+<tr>
+<td title='org.coursera.ReadyToTransformTests.reachForCampusPage()'><b>reachForCampusPage</b><br>Test class: org.coursera.ReadyToTransformTests<br/>
+<a href="#Output-266894813" onClick='toggleBox("Output-266894813", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-266894813" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-266894813">
+Reached Coursera for Campus<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>org.coursera.ReadyToTransformTests@53b7f657</td></tr>
+<tr>
+<td title='org.coursera.ReadyToTransformTests.getErrorMsg()'><b>getErrorMsg</b><br>Test class: org.coursera.ReadyToTransformTests<br/>
+<a href="#Output-1035219650" onClick='toggleBox("Output-1035219650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1035219650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1035219650">
+Error Message : Must be valid email.
+example@yourdomain.com<br/>
+Screenshot captured successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.ReadyToTransformTests@53b7f657</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.verifyHomepageTitle()'><b>verifyHomepageTitle</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-1992525817" onClick='toggleBox("Output-1992525817", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1992525817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1992525817">
+Coursera in India | Online Courses & Certificates From Top Institutions<br/>
+Page Loaded Successfully<br/>
+Screenshot captured successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.WebDevelopmentSearchTests.getSecondCourseRating()'><b>getSecondCourseRating</b><br>Test class: org.coursera.WebDevelopmentSearchTests<br/>
+<a href="#Output-780566650" onClick='toggleBox("Output-780566650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-780566650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-780566650">
+Second course rating is - 4.6
+stars<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.WebDevelopmentSearchTests@6a57ae10</td></tr>
+<tr>
+<td title='org.coursera.ReadyToTransformTests.verifyErrorMsg()'><b>verifyErrorMsg</b><br>Test class: org.coursera.ReadyToTransformTests<br/>
+<a href="#Output-876695548" onClick='toggleBox("Output-876695548", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-876695548" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-876695548">
+Error Message is correct<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.coursera.ReadyToTransformTests@53b7f657</td></tr>
+<tr>
+<td title='org.coursera.LanguageLearningSearchTests.searchLangLearn()'><b>searchLangLearn</b><br>Test class: org.coursera.LanguageLearningSearchTests<br/>
+<a href="#Output-1169015699" onClick='toggleBox("Output-1169015699", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1169015699" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1169015699">
+Result page loaded correctly<br/>
+Screenshot captured successfully<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>org.coursera.LanguageLearningSearchTests@6b6776cb</td></tr>
+</table><p>
+</body>
+</html>

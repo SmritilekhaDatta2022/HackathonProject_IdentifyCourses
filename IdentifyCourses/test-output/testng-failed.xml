@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Identify Courses]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="org.coursera.WebDevelopmentSearchTests">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="getCourse1Page"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.coursera.WebDevelopmentSearchTests -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Identify Courses] -->

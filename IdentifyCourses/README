@@ -1,0 +1,58 @@
+
+	Project Title : Identify Courses
+
+	Technology & Automation Tools used :
+		-> Selenium WebDriver (version - 4.0.0)
+		-> Maven
+		-> Data Driven approach
+		-> Apache POI (version - 5.0.0)
+		-> Property file concepts
+		-> Page Object Model (POM) concepts
+		-> TestNG (version - 7.4.0)
+		-> Cross Browser Testing concept
+		-> Jenkins
+		-> GitHub platform
+		-> Extent Report
+		-> TestNG Report
+		
+	Problem Statement :
+		1. Web Development courses should be for beginners level
+		2. Web Development courses offered in English language
+		3. Display first two Web Development courses with name, total learning hours and rating
+		4. Extract all the languages and different levels for Language Learning courses
+		5. Fill the "Ready to Transform" form and capture the warning message
+	
+	BASE URL : https://www.coursera.org/in
+
+	Detailed Description :
+	
+		1) Load the Coursera Home Page.
+		     -> Files : config.properties, geckodriver.exe, chromedriver.exe, msedgedriver.exe
+			 -> Methods : readConfigProperties(), invokeBrowser()
+		
+		2) Search for web development courses for Beginners level & English Language 
+		   and extract the course names, total learning hours & rating for first 2 courses
+		   
+		      -> Files : config.properties, IdentifyCoursesInputData.xlsx
+		      -> Methods : verifyHomepageTitle(), readExcelData(), searchWebDevelopment(), 
+		      			   selectLevel(), selectLanguage(), getFirstCourseName(),
+		                   getSecondCourseName(), getCourse1Page(), getFirstCourseRating(),
+		                   getCourse1Duration(), backToResultPage(), getCourse2Page(),
+		                   getSecondCourseRating(), getCourse2Duration(), backToResultPage2()
+		                   	  
+		3) Look for Language Learning courses; 
+		   Extract all the languages and different levels with the total counts and display them
+		   
+			 -> File : IdentifyCoursesInputData.xlsx
+			 -> Methods : returnHomePage(), readExcelData(), searchLangLearn(), 
+			 			  langFilter(), levelFilter()
+			
+		4) In Home page, go to "For Enterprise";
+		   Look into Courses for Campus under Product;
+		   Fill the "Ready to transform" form with any one input invalid (example: email); 
+		   Capture the error message and display
+		   
+			-> File : config.properties, IdentifyCoursesInputData.xlsx
+			-> Methods : return2HomePage(), reachForCampusPage(), getR2TForm(), 
+						 readExcelData(), fillR2TForm(), getErrorMsg(), verifyErrorMsg()					 
+			

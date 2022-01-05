@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="28" passed="24" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Coursera in India | Online Courses & Certificates From Top Institutions]]>
+    </line>
+    <line>
+      <![CDATA[Page Loaded Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Result page loaded correctly]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Beginner selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[English selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[First course name is - Introduction to Web Development]]>
+    </line>
+    <line>
+      <![CDATA[Second course name is - Programming Foundations with JavaScript, HTML and CSS]]>
+    </line>
+    <line>
+      <![CDATA[Reached Course 1 Page]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[First course rating is - 4.7
+stars]]>
+    </line>
+    <line>
+      <![CDATA[First course rating is - Approx. 22 hours to complete]]>
+    </line>
+    <line>
+      <![CDATA[Reached Result Page Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Reached Course 2 Page]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Second course rating is - 4.6
+stars]]>
+    </line>
+    <line>
+      <![CDATA[Second course rating is - Approx. 33 hours to complete]]>
+    </line>
+    <line>
+      <![CDATA[Reached Result Page Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Page Loaded Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Result page loaded correctly]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[English
+(1182)
+Russian
+(624)
+Spanish
+(614)
+French
+(570)
+Portuguese (Portugal)
+(547)
+German
+(481)
+Arabic
+(479)
+Vietnamese
+(472)
+Italian
+(460)
+Korean
+(137)
+Chinese (China)
+(118)
+Portuguese (Brazil)
+(66)
+Turkish
+(55)
+Japanese
+(53)
+Persian
+(42)
+Chinese (Traditional)
+(23)
+Greek
+(21)
+Ukrainian
+(18)
+Thai
+(17)
+Hindi
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Polish
+(8)
+Dutch
+(7)
+Hebrew
+(7)
+Hungarian
+(7)
+Catalan
+(6)
+Indonesian
+(6)
+Mongolian
+(6)
+Romanian
+(6)
+Javanese
+(5)
+Portuguese
+(5)
+Serbian
+(5)
+Slovak
+(5)
+Tamil
+(5)
+Albanian
+(4)
+Bengali
+(4)
+Czech
+(3)
+Estonian
+(3)
+Swedish
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Georgian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Intermediate
+(563)
+Beginner
+(522)
+Mixed
+(161)
+Advanced
+(70)
+Clear]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Page Loaded Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Reached Coursera for Campus]]>
+    </line>
+    <line>
+      <![CDATA[Ready To Transform form is available]]>
+    </line>
+    <line>
+      <![CDATA[Ready To Transform form filled successfully]]>
+    </line>
+    <line>
+      <![CDATA[Error Message : Must be valid email.
+example@yourdomain.com]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Error Message is correct]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-01-05T16:28:40 IST" name="Identify Courses" finished-at="2022-01-05T16:29:47 IST" duration-ms="67792">
+    <groups>
+    </groups>
+    <test started-at="2022-01-05T16:28:40 IST" name="Regression Test" finished-at="2022-01-05T16:29:47 IST" duration-ms="67792">
+      <class name="org.coursera.WebDevelopmentSearchTests">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:28:25 IST" name="invokeBrowser" finished-at="2022-01-05T16:28:40 IST" duration-ms="14685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="verifyHomepageTitle()[pri:1, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:28:40 IST" name="verifyHomepageTitle" finished-at="2022-01-05T16:28:41 IST" duration-ms="873" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Coursera in India | Online Courses & Certificates From Top Institutions]]>
+            </line>
+            <line>
+              <![CDATA[Page Loaded Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method signature="searchWebDevelopment()[pri:2, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:28:41 IST" name="searchWebDevelopment" finished-at="2022-01-05T16:28:49 IST" duration-ms="8771" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Result page loaded correctly]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWebDevelopment -->
+        <test-method signature="selectLevel()[pri:3, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:28:49 IST" name="selectLevel" finished-at="2022-01-05T16:28:53 IST" duration-ms="3091" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Beginner selected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectLevel -->
+        <test-method signature="selectLanguage()[pri:4, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:28:53 IST" name="selectLanguage" finished-at="2022-01-05T16:28:53 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[English selected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectLanguage -->
+        <test-method signature="getFirstCourseName()[pri:5, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:28:53 IST" name="getFirstCourseName" finished-at="2022-01-05T16:28:54 IST" duration-ms="1404" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[First course name is - Introduction to Web Development]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getFirstCourseName -->
+        <test-method signature="getSecondCourseName()[pri:6, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:28:54 IST" name="getSecondCourseName" finished-at="2022-01-05T16:28:54 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Second course name is - Programming Foundations with JavaScript, HTML and CSS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getSecondCourseName -->
+        <test-method signature="getCourse1Page()[pri:7, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:28:54 IST" name="getCourse1Page" finished-at="2022-01-05T16:28:58 IST" duration-ms="3621" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reached Course 1 Page]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCourse1Page -->
+        <test-method signature="getFirstCourseRating()[pri:8, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:28:58 IST" name="getFirstCourseRating" finished-at="2022-01-05T16:29:00 IST" duration-ms="1987" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[First course rating is - 4.7
+stars]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getFirstCourseRating -->
+        <test-method signature="getCourse1Duration()[pri:9, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:29:00 IST" name="getCourse1Duration" finished-at="2022-01-05T16:29:00 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[First course rating is - Approx. 22 hours to complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCourse1Duration -->
+        <test-method signature="backToResultPage()[pri:10, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:29:00 IST" name="backToResultPage" finished-at="2022-01-05T16:29:00 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reached Result Page Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- backToResultPage -->
+        <test-method signature="getCourse2Page()[pri:11, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:29:00 IST" name="getCourse2Page" finished-at="2022-01-05T16:29:05 IST" duration-ms="4498" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reached Course 2 Page]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCourse2Page -->
+        <test-method signature="getSecondCourseRating()[pri:12, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:29:05 IST" name="getSecondCourseRating" finished-at="2022-01-05T16:29:06 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Second course rating is - 4.6
+stars]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getSecondCourseRating -->
+        <test-method signature="getCourse2Duration()[pri:13, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:29:06 IST" name="getCourse2Duration" finished-at="2022-01-05T16:29:06 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Second course rating is - Approx. 33 hours to complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCourse2Duration -->
+        <test-method signature="backToResultPage2()[pri:14, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:29:06 IST" name="backToResultPage2" finished-at="2022-01-05T16:29:06 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reached Result Page Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- backToResultPage2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.coursera.WebDevelopmentSearchTests@6a57ae10]" started-at="2022-01-05T16:29:48 IST" name="closeBrowser" finished-at="2022-01-05T16:29:51 IST" duration-ms="3816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.coursera.WebDevelopmentSearchTests -->
+      <class name="org.coursera.ReadyToTransformTests">
+        <test-method signature="return2HomePage()[pri:19, instance:org.coursera.ReadyToTransformTests@53b7f657]" started-at="2022-01-05T16:29:27 IST" name="return2HomePage" finished-at="2022-01-05T16:29:32 IST" duration-ms="5253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Loaded Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- return2HomePage -->
+        <test-method signature="reachForCampusPage()[pri:20, instance:org.coursera.ReadyToTransformTests@53b7f657]" started-at="2022-01-05T16:29:32 IST" name="reachForCampusPage" finished-at="2022-01-05T16:29:43 IST" duration-ms="11421" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reached Coursera for Campus]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reachForCampusPage -->
+        <test-method signature="getR2TForm()[pri:21, instance:org.coursera.ReadyToTransformTests@53b7f657]" started-at="2022-01-05T16:29:43 IST" name="getR2TForm" finished-at="2022-01-05T16:29:45 IST" duration-ms="1422" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Ready To Transform form is available]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getR2TForm -->
+        <test-method signature="fillR2TForm()[pri:22, instance:org.coursera.ReadyToTransformTests@53b7f657]" started-at="2022-01-05T16:29:45 IST" name="fillR2TForm" finished-at="2022-01-05T16:29:47 IST" duration-ms="1766" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Ready To Transform form filled successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillR2TForm -->
+        <test-method signature="getErrorMsg()[pri:23, instance:org.coursera.ReadyToTransformTests@53b7f657]" started-at="2022-01-05T16:29:47 IST" name="getErrorMsg" finished-at="2022-01-05T16:29:47 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error Message : Must be valid email.
+example@yourdomain.com]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getErrorMsg -->
+        <test-method signature="verifyErrorMsg()[pri:24, instance:org.coursera.ReadyToTransformTests@53b7f657]" started-at="2022-01-05T16:29:47 IST" name="verifyErrorMsg" finished-at="2022-01-05T16:29:47 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error Message is correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMsg -->
+      </class> <!-- org.coursera.ReadyToTransformTests -->
+      <class name="org.coursera.LanguageLearningSearchTests">
+        <test-method signature="returnHomePage()[pri:15, instance:org.coursera.LanguageLearningSearchTests@6b6776cb]" started-at="2022-01-05T16:29:06 IST" name="returnHomePage" finished-at="2022-01-05T16:29:12 IST" duration-ms="5725" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Loaded Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- returnHomePage -->
+        <test-method signature="searchLangLearn()[pri:16, instance:org.coursera.LanguageLearningSearchTests@6b6776cb]" started-at="2022-01-05T16:29:12 IST" name="searchLangLearn" finished-at="2022-01-05T16:29:21 IST" duration-ms="8759" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Result page loaded correctly]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchLangLearn -->
+        <test-method signature="langFilter()[pri:17, instance:org.coursera.LanguageLearningSearchTests@6b6776cb]" started-at="2022-01-05T16:29:21 IST" name="langFilter" finished-at="2022-01-05T16:29:26 IST" duration-ms="5621" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[English
+(1182)
+Russian
+(624)
+Spanish
+(614)
+French
+(570)
+Portuguese (Portugal)
+(547)
+German
+(481)
+Arabic
+(479)
+Vietnamese
+(472)
+Italian
+(460)
+Korean
+(137)
+Chinese (China)
+(118)
+Portuguese (Brazil)
+(66)
+Turkish
+(55)
+Japanese
+(53)
+Persian
+(42)
+Chinese (Traditional)
+(23)
+Greek
+(21)
+Ukrainian
+(18)
+Thai
+(17)
+Hindi
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Polish
+(8)
+Dutch
+(7)
+Hebrew
+(7)
+Hungarian
+(7)
+Catalan
+(6)
+Indonesian
+(6)
+Mongolian
+(6)
+Romanian
+(6)
+Javanese
+(5)
+Portuguese
+(5)
+Serbian
+(5)
+Slovak
+(5)
+Tamil
+(5)
+Albanian
+(4)
+Bengali
+(4)
+Czech
+(3)
+Estonian
+(3)
+Swedish
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Georgian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- langFilter -->
+        <test-method signature="levelFilter()[pri:18, instance:org.coursera.LanguageLearningSearchTests@6b6776cb]" started-at="2022-01-05T16:29:26 IST" name="levelFilter" finished-at="2022-01-05T16:29:27 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Intermediate
+(563)
+Beginner
+(522)
+Mixed
+(161)
+Advanced
+(70)
+Clear]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- levelFilter -->
+      </class> <!-- org.coursera.LanguageLearningSearchTests -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Identify Courses -->
+</testng-results>
